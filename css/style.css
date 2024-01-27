@@ -1,0 +1,91 @@
+:root{
+--link:red;
+--baackgr:rgb(62, 62, 62);
+--linkcol:rgb(191, 44, 44);
+--yolo:rgb(115, 194, 208);
+}
+
+
+body {
+   background-color: black;
+
+   text-align:center;
+}
+
+h1 {
+   text-align: center;
+}
+a:link{
+   color:var(--link);
+   text-decoration: none;
+   }
+   a:visited{
+      color:var(--linkcol);
+      text-decoration: none;
+      }
+   .qst td:nth-child(2n){
+      background-color: var(--baackgr);
+
+   }
+   .dst td:nth-child(odd){
+      background-color:var(--baackgr);
+      color: var(--yolo);
+   }
+
+   #mnd td:first-child{
+      background-color: rgb(155, 155, 155);
+   }
+ul,
+table,
+tr,
+td,
+th,
+li {
+   color: turquoise;
+   border: 2px solid rgb(48, 48, 48);
+}
+
+input {
+   margin: 3px 3px 3px 3px;
+}
+
+.th1 {
+   width: 100%;
+   text-align: center;
+}
+
+.th2 {
+   border: 2px solid black;
+   color: black;
+}
+#rekt{
+   background-color:var(--baackgr);
+}
+#mnd:hover{
+   background-color: rgb(147, 147, 147);
+   color: aliceblue;
+}
+#tsd:hover{   
+   background-color: rgb(147, 147, 147);
+   color: aliceblue;}
+#wnd:hover{
+   background-color: rgb(147, 147, 147);
+   color: aliceblue;
+}
+#tsd:hover{
+   background-color: rgb(147, 147, 147);
+   color: aliceblue;
+}
+#frd:hover{
+   background-color: rgb(147, 147, 147);
+   color: aliceblue;
+}
+   #rekt th:first-child{
+      background-color: rgb(68, 1, 1);
+   }
+   #rekt th:last-child{
+      background-color: rgb(68, 1, 1);
+   }
+   #rekt th:nth-of-type(3){
+      background-color: rgb(68, 1, 1);
+   }
